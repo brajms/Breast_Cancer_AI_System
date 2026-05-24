@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.stApp {
+
+background: linear-gradient(
+-45deg,
+#0F172A,
+#111827,
+#1E293B,
+#0F172A
+);
+
+background-size: 400% 400%;
+
+animation: gradient 15s ease infinite;
+
+font-family: 'Poppins', sans-serif;
+
+color: white;
+
+}
+
+/* ANIMATION */
+
+@keyframes gradient {
+
+0% {
+background-position: 0% 50%;
+}
+
+50% {
+background-position: 100% 50%;
+}
+
+100% {
+background-position: 0% 50%;
+}
+
+}
+
+/* TITLES */
+
+h1 {
+
+font-size: 3.5rem !important;
+
+font-weight: 700 !important;
+
+color: #00FFAA !important;
+
+text-shadow: 0px 0px 25px rgba(0,255,170,0.5);
+
+}
+
+h2,h3 {
+
+color: #00D4FF !important;
+
+}
+
+/* SIDEBAR */
+
+section[data-testid="stSidebar"] {
+
+background: rgba(17,24,39,0.92);
+
+backdrop-filter: blur(15px);
+
+border-right: 1px solid rgba(255,255,255,0.1);
+
+}
+
+/* GLASS CARDS */
+
+[data-testid="metric-container"] {
+
+background: rgba(255,255,255,0.06);
+
+backdrop-filter: blur(15px);
+
+padding: 20px;
+
+border-radius: 20px;
+
+border: 1px solid rgba(255,255,255,0.1);
+
+box-shadow: 0px 8px 32px rgba(0,0,0,0.3);
+
+}
+
+/* BUTTONS */
+
+.stButton>button {
+
+background: linear-gradient(
+90deg,
+#00FFAA,
+#00D4FF
+);
+
+color: black;
+
+border-radius: 16px;
+
+height: 3.2em;
+
+font-size: 18px;
+
+font-weight: 700;
+
+border: none;
+
+transition: 0.3s;
+
+box-shadow: 0px 0px 20px rgba(0,255,170,0.4);
+
+}
+
+.stButton>button:hover {
+
+transform: scale(1.05);
+
+box-shadow: 0px 0px 35px rgba(0,255,170,0.8);
+
+}
+
+/* FILE UPLOADER */
+
+[data-testid="stFileUploader"] {
+
+background: rgba(255,255,255,0.05);
+
+padding: 20px;
+
+border-radius: 20px;
+
+}

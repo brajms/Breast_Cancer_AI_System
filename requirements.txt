@@ -13,3 +13,4 @@ pytesseract
 pdfplumber
 openpyxl
 streamlit-option-menu
+xgboost

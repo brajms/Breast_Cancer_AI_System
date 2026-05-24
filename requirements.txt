@@ -12,3 +12,4 @@ PyMuPDF
 pytesseract
 pdfplumber
 openpyxl
+streamlit-option-menu
